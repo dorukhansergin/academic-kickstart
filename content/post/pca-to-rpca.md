@@ -99,25 +99,23 @@ Sparse errors $S$ then becomes moving objects, or the *foreground*.
 
 # Robust PCA in Action
 
-I grabbed the following royalty free airport camera footage from YouTube.
+I grabbed the first few seconds following royalty free airport camera footage from YouTube.
 
 {{< youtube -R4ezN3P210 >}}
 
 It fits my definition above, since the camera is fixed at a location and it doesn't rotate around.
 There are a few *sparse* objects moving around.
 
-{{< figure library="true" src="airplanes.gif" title="A caption" lightbox="true">}}
+{{< figure library="true" src="/rpca/airplanes.gif" title="Original" lightbox="true">}}
 
 By applying robust PCA, I could easily separate background from the moving object (in this case, the truck and a couple of planes to the very right of the frame through the end of the video).
 
-![airplanes-background](/Users/dorukhansergin/Research/dorukhansergin.github.io/content/{static}/images/rpca/airplanes-background.gif)
-
-![airplanes-obj](/Users/dorukhansergin/Research/dorukhansergin.github.io/content/{static}/images/rpca/airplanes-obj.gif)
+{{< figure library="true" src="/rpca/airplanes-background.gif" title="Inferred Background by RPCA" lightbox="true">}}
 
 Had we have done it with PCA? Well...
 
-![airplanes-background-pca](/Users/dorukhansergin/Research/dorukhansergin.github.io/content/{static}/images/rpca/airplanes-background-pca.gif)
+{{< figure library="true" src="/rpca/airplanes-background-pca.gif" title="Inferred Background by PCA" lightbox="true">}}
 
-![airplanes-obj-pca](/Users/dorukhansergin/Research/dorukhansergin.github.io/content/{static}/images/rpca/airplanes-obj-pca.gif)
+{{< figure library="true" src="/rpca/airplanes-obj-pca.gif" title="Inferred Object by PCA" lightbox="true">}}
 
 I guess it's good for making viral ghost footage videos.
