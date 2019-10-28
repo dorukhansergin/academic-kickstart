@@ -7,7 +7,7 @@ date: "2019-10-27T00:00:00+01:00"
 draft: false
 menu:
   example:
-    parent: Preliminaries
+    parent: 1. Preliminaries
     weight: 2
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)

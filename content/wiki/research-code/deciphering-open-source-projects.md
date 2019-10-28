@@ -1,13 +1,13 @@
 ---
-title: Deciphering an Open Source Software Project
-linktitle: Deciphering an Open Source Software Project
+title: Deciphering an Open Source Project
+linktitle: Deciphering an Open Source Project
 toc: true
 type: docs
 date: "2019-10-27T00:00:00+01:00"
 draft: false
 menu:
   example:
-    parent: Preliminaries
+    parent: 1. Preliminaries
     weight: 4
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)

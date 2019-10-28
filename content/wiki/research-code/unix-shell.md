@@ -5,10 +5,9 @@ toc: true
 type: docs
 date: "2019-10-27T00:00:00+01:00"
 draft: false
-markup: mmark
 menu:
   example:
-    parent: Preliminaries
+    parent: 1. Preliminaries
     weight: 3
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
@@ -39,13 +38,6 @@ Shell is easy to learn.
 The key is to narrow down the content to learn and start slow.
 Consistent use of the shell everyday for 2-3 weeks will get you to be comfortable with pretty much everything you can do with a GUI such as the file explorer in Windows or Mac.
 
-A> Unix shell comes default with Mac and Linux. Windows has a terminal too, but the functionalities and the keywords differ from the Unix shell (the one in Mac and Linux).
-Since HPCs and cloud services often use Unix shell and since it is much more fun to work with, I strongly suggest having downloading a Linux emulator to your system.
-See [here](https://www.puttygen.com/windows-terminal-emulators) for a list of options. 
-[Cmder](https://cmder.net/) seems to be the best option as of now.
-I haven't personally used any of them, just try any of them for starters.
-As you get more and more comfortable with Unix, you'll develop more specific needs from an emulator.
-
 ## How to learn the basics?
 
 I didn't bother creating learning notes for Linux.
@@ -65,5 +57,29 @@ I strongly suggest using one of them.
 I personally use `zsh` and specifically the `oh-my-zsh` configuration of it. 
 Here is a [HowtoGeek piece](https://www.howtogeek.com/362409/what-is-zsh-and-why-should-you-use-it-instead-of-bash/) why to use `zsh` and how to install it.
 
-A> Windows users should find an emulator that they can use zsh or fish with.
+## Setting up Development Environment on Windows
+
+Unix shell comes default with Mac and Linux. Windows has a terminal too, but the functionalities and the keywords differ from the Unix shell (the one in Mac and Linux).
+Since HPCs and cloud services often use Unix shell and since it is much more fun to work with, I strongly suggest downloading a Linux emulator to your system.
+See [here](https://www.puttygen.com/windows-terminal-emulators) for a list of options.
+As of Windows 10 there is also the Linux Subsytem option.
+
+I haven't personally used any of them, maybe just try any of them for starters.
+As you get more and more comfortable with Unix, you'll develop more specific needs from an emulator.
+
+Whether Windows is suitable for Data Science and Machine Learning is an open debate.
+I won't go into that but I'll redirect you all the resources I could find on the net:
+
+* https://towardsdatascience.com/setting-up-a-data-science-environment-using-windows-subsystem-for-linux-wsl-c4b390803dd
+* https://medium.com/faun/how-to-use-git-and-other-linux-tools-in-wsl-on-windows-4c0bffb68b35
+* https://blog.joaograssi.com/windows-subsystem-for-linux-with-oh-my-zsh-conemu/
+
+Ideally you'd want to have a single shell in your system that can:
+
+* run conda
+* run git
+* have fundamental functionalities of linux (in addition to basic file navigation, `wget`, `awk`, `grep` etc.)
+* a more modern looking and user-friendly flavor of bash like `zsh` or `fish`
+
+## 
 
