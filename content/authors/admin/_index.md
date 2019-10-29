@@ -78,7 +78,7 @@ Greetings! Welcome to my personal website where you can find a snapshot of my pa
 
 I am a PhD student at the School of Computing, Information and Decision Systems Engineering at Arizona State University. There, I spend a typical day learning, teaching and creating things; mostly related to machine learning. I can define myself with three aspects of my life: what I love doing for work, what I love doing outside work and what problems I care about the most.
 
-For work, I love building systems that consumes data and transforms it into informed decisions. I feel particularly happy that I chose to become and industrial engineer, for that I'm exposed to three important tools to make this happen: operations research, simulation and statistics. I had a chance to do research on each and every one of them as well as all the great courses I've took from amazing scholars.
+For work, I love building systems that consumes data and transforms it into informed decisions. I feel particularly happy that I chose to become an industrial engineer, for that I'm exposed to three important tools to make this happen: operations research, simulation and statistics. I had a chance to do research on each and every one of them as well as all the great courses I've took from amazing scholars.
 
 Outside of work, I try to be in nature as much as I can, particularly on some body of water. I've been sailing for as long as I can remember and believe it or not, I still keep doing it in the middle of this desert called Arizona.
 
